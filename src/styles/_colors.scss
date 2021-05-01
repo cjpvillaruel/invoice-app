@@ -1,0 +1,16 @@
+$primary: #7C5DFA;
+$primary-hover: #9277FF;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "prominent":  $prominent,
+  "primary-hover":    $primary-hover,
+  "secondary-hover":  $secondary-hover,
+  "prominent-hover":  $prominent-hover,
+
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+);
