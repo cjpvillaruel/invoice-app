@@ -1,0 +1,35 @@
+
+
+.sidebar {
+  background: #373B53;
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  width: 103px;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.avatarContainer {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #97979736;
+}
+
+.themeButton {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  svg:hover {
+    fill: #DFE3FA;
+  }
+}
