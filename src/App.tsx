@@ -1,11 +1,15 @@
 import React from 'react';
-import SideBar from 'components/Sidebar';
 import './App.scss';
+import Invoices from 'pages/Invoices';
+import Layout from 'components/Layout';
 
 function App() {
   return (
     <div className="App">
-      <SideBar />
+      <Layout>
+        <Invoices />
+      </Layout>
+
     </div>
   );
 }
