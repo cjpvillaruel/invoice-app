@@ -10,8 +10,8 @@ const InvoiceList = ({ invoices }: IProps) => {
   if (invoices.length === 0)
     return <EmptyInvoice />;
   return (
-    <div>
-      {invoices.map((invoice) => <InvoiceItem key={invoice.id} />)}
+    <div style={{ marginTop: 65 }}>
+      {invoices.map((invoice) => <InvoiceItem key={invoice.id} invoice={invoice} />)}
     </div>
   )
 }

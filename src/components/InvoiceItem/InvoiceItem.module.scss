@@ -1,0 +1,35 @@
+.invoice {
+  background-color: #FFFFFF;
+  display: flex;
+  position: relative;
+  height: 72px;
+  align-items: center;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.100397);
+  font-size: 12px;
+  color:#858BB2;
+}
+
+.id {
+  color: #0C0E16;
+  font-weight: bold;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+  color: #0C0E16;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  position: absolute;
+  right: 20px;
+}

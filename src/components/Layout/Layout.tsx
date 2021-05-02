@@ -7,7 +7,7 @@ interface IProps {
 }
 
 const Layout = ({ children }: IProps) => (
-  <div>
+  <div className={styles.page}>
     <SideBar />
     <div className={styles.pageContent}>
       <Container>

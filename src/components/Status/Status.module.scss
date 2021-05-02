@@ -1,0 +1,41 @@
+.status {
+  height: 40px;
+  width: 104px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-size: 12px;
+
+  &.paid{
+    color: #33D69F;
+    background-color: #33d69f0f;
+  }
+
+  &.draft{
+    color: #373B53;
+    background-color: #373B530f;
+  }
+
+  &.pending{
+    color: #FF8F00;
+    background-color: #FF8F000f;
+  }
+}
+
+.circle {
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  margin-right: 8px;
+  &.paid{
+    background-color: #33D69F;
+  }
+  &.pending{
+    background-color: #FF8F00;
+  }
+  &.draft{
+    background-color: #373B53;
+  }
+}
